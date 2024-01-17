@@ -1,1 +1,45 @@
-/* write down the css for Carousel in this file */
+/* write your carousel css in this file */
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 46, 46);
+    height: 90%;
+    overflow: hidden;
+}
+
+.image-container{
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 250px;
+    align-items: center;
+}
+
+.image-box{
+    width: 550px;
+}
+
+.img{
+    width: 100%;
+}
+
+.box{
+    background-color: rgba(255, 255, 255, 0.831);
+    padding: 13px 25px;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+.title-box{
+    width: fit-content;
+    font-size: 45px;
+}
+
+.arrows{
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+}
